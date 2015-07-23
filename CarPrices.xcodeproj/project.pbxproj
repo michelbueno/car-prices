@@ -12,7 +12,9 @@
 		B225DEF81B618BB300435D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B225DEF61B618BB300435D35 /* Main.storyboard */; };
 		B225DEFA1B618BB300435D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B225DEF91B618BB300435D35 /* Images.xcassets */; };
 		B225DEFD1B618BB300435D35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B225DEFB1B618BB300435D35 /* LaunchScreen.xib */; };
-		B225DF091B618BB300435D35 /* CarPricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225DF081B618BB300435D35 /* CarPricesTests.swift */; };
+		B225DF191B6193C700435D35 /* BrandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225DF181B6193C700435D35 /* BrandTests.swift */; };
+		B225DF1B1B61946900435D35 /* FipeBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225DF1A1B61946900435D35 /* FipeBrand.swift */; };
+		B225DF1C1B61946900435D35 /* FipeBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225DF1A1B61946900435D35 /* FipeBrand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,8 @@
 		B225DEFC1B618BB300435D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B225DF021B618BB300435D35 /* CarPricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B225DF071B618BB300435D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B225DF081B618BB300435D35 /* CarPricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPricesTests.swift; sourceTree = "<group>"; };
+		B225DF181B6193C700435D35 /* BrandTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandTests.swift; sourceTree = "<group>"; };
+		B225DF1A1B61946900435D35 /* FipeBrand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FipeBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				B225DEF91B618BB300435D35 /* Images.xcassets */,
 				B225DEFB1B618BB300435D35 /* LaunchScreen.xib */,
 				B225DEF01B618BB300435D35 /* Supporting Files */,
+				B225DF1A1B61946900435D35 /* FipeBrand.swift */,
 			);
 			path = CarPrices;
 			sourceTree = "<group>";
@@ -98,8 +102,8 @@
 		B225DF051B618BB300435D35 /* CarPricesTests */ = {
 			isa = PBXGroup;
 			children = (
-				B225DF081B618BB300435D35 /* CarPricesTests.swift */,
 				B225DF061B618BB300435D35 /* Supporting Files */,
+				B225DF181B6193C700435D35 /* BrandTests.swift */,
 			);
 			path = CarPricesTests;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B225DEF51B618BB300435D35 /* ViewController.swift in Sources */,
+				B225DF1B1B61946900435D35 /* FipeBrand.swift in Sources */,
 				B225DEF31B618BB300435D35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B225DF091B618BB300435D35 /* CarPricesTests.swift in Sources */,
+				B225DF191B6193C700435D35 /* BrandTests.swift in Sources */,
+				B225DF1C1B61946900435D35 /* FipeBrand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
