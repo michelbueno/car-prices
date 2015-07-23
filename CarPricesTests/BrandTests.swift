@@ -11,7 +11,7 @@ import XCTest
 
 class BrandTests: XCTestCase {
     
-    func testBrandCanHaveKeyAssigned() {
+    func testFipeBrandCanHaveKeyAssigned() {
         let fipeBrand = FipeBrand()
         
         fipeBrand.key = "fiat"
@@ -19,7 +19,7 @@ class BrandTests: XCTestCase {
             "brand name should be what was assigned")
     }
     
-    func testBrandCanHaveIdAssigned() {
+    func testFipeBrandCanHaveIdAssigned() {
         let fipeBrand = FipeBrand()
         
         fipeBrand.id = 1
@@ -27,7 +27,7 @@ class BrandTests: XCTestCase {
             "brand id should be what was assigned")
     }
     
-    func testBrandCanHaveFipeNameAssigned() {
+    func testFipeBrandCanHaveFipeNameAssigned() {
         let fipeBrand = FipeBrand()
         
         fipeBrand.fipeName = "Fiat"
@@ -35,7 +35,7 @@ class BrandTests: XCTestCase {
             "fipe name should be what was assigned")
     }
     
-    func testBrandCanHaveNameAssigned() {
+    func testFipeBrandCanHaveNameAssigned() {
         let fipeBrand = FipeBrand()
         
         fipeBrand.name = "Fiat"
